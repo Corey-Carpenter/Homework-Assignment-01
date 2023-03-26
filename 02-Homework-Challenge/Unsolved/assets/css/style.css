@@ -1,13 +1,16 @@
+/* Universal Selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Element Selectors */
 body {
     background-color: #d9dcd6;
 }
 
+/* Class Selectors */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -36,6 +39,7 @@ body {
     list-style-type: none;
 }
 
+/* Added padding and changed to display inline */
 .header section ul li {
     display: inline;
     margin-left: 25px;
@@ -51,6 +55,7 @@ p {
     font-size: 16px;
 }
 
+/* Changed from ".hero" to make more sense */
 .meeting {
     height: 800px;
     width: 100%;
@@ -196,7 +201,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
 
